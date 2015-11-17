@@ -1,0 +1,33 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>root.project</groupId>
+    <version>1.0</version>
+    <artifactId>distribution</artifactId>
+    <packaging>pom</packaging>
+    <name>distribution</name>
+
+
+    <parent>
+        <groupId>root</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.0</version>
+    </parent>
+    <modules>
+        <module>logging</module>
+    </modules>
+
+    <profiles>
+        <profile>
+            <id>profile1</id>
+            <properties>
+                <myParentProp>myValueDistribution</myParentProp>
+            </properties>
+        </profile>
+    </profiles>
+
+    <build>
+        <plugins>
+
+        </plugins>
+    </build>
+</project>
